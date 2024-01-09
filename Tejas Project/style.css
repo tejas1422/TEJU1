@@ -1,0 +1,76 @@
+label{
+	width:140px;
+	display:inline-block;
+	margin: 0.8;
+	font-size:16px;
+	font-weight:bold;	
+}
+
+input{
+	padding:4px;
+	margin:5px;
+	font-size:16px;
+	border-radius:10px;
+	border:1px solid#f9f9f9;
+	width:7cm
+}
+
+form{
+  margin: 140px 180px;
+  gap: 20px;
+}
+
+
+button{
+	position: relative;
+	width: 135px;
+	padding:10px 0;
+	text-align: center;
+	margin: 100px 225px;
+	font-weight: bold;
+	border: 2px solid#ffffff;
+	background: transparent;
+	color: #fff;
+	border-radius:50px;
+	cursor: pointer;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+
+span{
+	background: #ffffff;
+	height:100%;
+	width:0;
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s ease;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #553535;
+}
+
+
+
+img{
+	position:absolute;
+	top: 120px;
+	right: 10px;
+}
+
+
+section1 h1{
+	margin:100px 100px;
+	color: greenyellow;
+	font-family:'Cedarville';
+}
+
+
+SI{
+	font-size:16px;
+	font-weight:bold;
+	margin: 0.8;
+}
